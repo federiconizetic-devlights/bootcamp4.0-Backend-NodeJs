@@ -28,7 +28,5 @@ Este repositorio se usará para:
 
 ---
 
-## 🗂 Estructura del proyecto
-
 
 
