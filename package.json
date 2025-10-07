@@ -1,0 +1,23 @@
+{
+  "name": "bootcamp4.0-backend-nodejs",
+  "version": "1.0.0",
+  "description": "A bootcamps repository",
+  "type":"module",
+  "main": "server.ts",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/federiconizetic-devlights/bootcamp4.0-Backend-NodeJs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/federiconizetic-devlights/bootcamp4.0-Backend-NodeJs/issues"
+  },
+  "homepage": "https://github.com/federiconizetic-devlights/bootcamp4.0-Backend-NodeJs#readme",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
