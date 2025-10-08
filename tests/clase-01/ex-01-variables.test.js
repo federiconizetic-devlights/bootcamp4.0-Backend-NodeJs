@@ -1,4 +1,4 @@
-import { presentar , cambiarEdad , nombre , edad , estudiante } from "../ex-01-variables.js";
+import { presentar , cambiarEdad , nombre , edad , estudiante } from "../../01-introduccion-js/exercises/ex-01-variables.js";
 
 describe('Ejercicio 01 — Variables y Tipos', () => {
   test('Las variables existen y tienen tipo correcto', () => {

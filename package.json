@@ -5,7 +5,9 @@
   "type":"module",
   "main": "server.ts",
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:clase1": "node --experimental-vm-modules node_modules/jest/bin/jest.js tests/clase-01",
+    "test:clase2": "node --experimental-vm-modules node_modules/jest/bin/jest.js tests/clase-02"
   },
   "repository": {
     "type": "git",

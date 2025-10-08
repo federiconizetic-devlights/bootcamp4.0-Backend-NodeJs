@@ -1,4 +1,4 @@
-import { modificarComidas } from "../ex-02-arrays.js";
+import { modificarComidas } from "../../01-introduccion-js/exercises/ex-02-arrays.js";
 
 test('modificarComidas agrega y quita correctamente', () => {
 
