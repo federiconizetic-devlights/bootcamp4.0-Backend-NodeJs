@@ -11,10 +11,9 @@ Nivel: medio
 
 //TO DO :
 
-export function esPar() {
-}
+export function esPar() {};
 
 
-//PISTA : Podemos usar reduce() aqui.
-export function promedio() {
-}
+
+//PISTA : Podemos usar reduce() aqui (investigar sobre este método).
+export function promedio() {};

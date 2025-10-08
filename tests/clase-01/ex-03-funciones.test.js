@@ -1,4 +1,4 @@
-import { esPar, promedio } from "../ex-03-funciones.js";
+import { esPar, promedio } from "../../01-introduccion-js/exercises/ex-03-funciones.js";
 
 describe("Funciones básicas", () => {
   test("esPar debe retornar true para números pares", () => {

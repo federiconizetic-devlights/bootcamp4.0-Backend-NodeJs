@@ -1,4 +1,4 @@
-import { auto } from "../ex-04-objetos.js";
+import { auto } from "../../01-introduccion-js/exercises/ex-04-objetos.js";
 
 describe('Ejercicio 04 — Objetos', () => {
   test('El objeto auto tiene las propiedades correctas', () => {
