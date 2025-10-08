@@ -14,5 +14,7 @@ Nivel: medio
 export function esPar() {
 }
 
+
+//PISTA : Podemos usar reduce() aqui.
 export function promedio() {
 }
