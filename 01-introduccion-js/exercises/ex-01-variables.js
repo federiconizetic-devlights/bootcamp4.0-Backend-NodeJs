@@ -2,7 +2,7 @@
 
 
 1. Declara variables para `nombre`, `edad` y `estudiante`.
-2. Muestra por consola: "Mi nombre es X, tengo Y años y es true/false que soy estudiante".
+2. Declara una función que devuelva un string: "Mi nombre es X, tengo Y años y es true/false que soy estudiante".
 3. Cambia la variable `edad` y muestra el nuevo valor.
 
 Nivel: fácil */
