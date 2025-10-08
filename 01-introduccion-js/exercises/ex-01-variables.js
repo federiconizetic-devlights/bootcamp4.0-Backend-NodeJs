@@ -7,7 +7,7 @@
 
 Nivel: fácil */
 
-//Escribir el prefijo "export" antes del nombre de cada variable para poder testear correctamente. Ej: export const nombre = "Pepito".
+//Escribir el prefijo "export" antes de la declaracion de cada variable para poder testear correctamente. Ej: export const nombre = "Pepito".
 
 //TO DO:
 
