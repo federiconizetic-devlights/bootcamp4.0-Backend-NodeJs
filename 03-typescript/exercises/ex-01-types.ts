@@ -40,6 +40,6 @@ function sumar2(/* completa aquí */) {
 }
 
 
-// TODO 10: Crea una variable "miId" que pueda ser string O number
+// TODO 8: Crea una variable "miId" que pueda ser string O number
 // Asígnale cualquier valor (puede ser "ABC123" o 456)
 // Escribe aquí:
