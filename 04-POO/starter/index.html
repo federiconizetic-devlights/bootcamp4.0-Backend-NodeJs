@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POO - Bootcamp 4.0</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+        .info {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 4px solid #4CAF50;
+        }
+        .steps {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 25px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .step {
+            margin: 15px 0;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            border-left: 3px solid #FF9800;
+        }
+        code {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            font-weight: bold;
+        }
+        .command {
+            background: #2d3748;
+            color: #68d391;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            margin: 15px 0;
+            border-left: 4px solid #68d391;
+        }
+        .highlight {
+            background: rgba(255, 193, 7, 0.3);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border: 2px solid #FFC107;
+        }
+        .icon {
+            font-size: 1.2em;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏗️ POO - Programación Orientada a Objetos</h1>
+        
+        <div class="info">
+            <h3><span class="icon">📚</span>¿Qué es la POO?</h3>
+            <p>La <strong>Programación Orientada a Objetos</strong> nos permite crear <strong>clases</strong> (moldes) para hacer <strong>objetos</strong> (cosas). ¡Como tener moldes para hacer galletas!</p>
+        </div>
+
+        <div class="steps">
+            <h3><span class="icon">🔧</span>Cómo trabajar con POO en TypeScript:</h3>
+            
+            <div class="step">
+                <strong>1. Escribir código TypeScript:</strong>
+                <p>Crea clases con propiedades y métodos en archivos <code>.ts</code></p>
+                <div class="command">// Ejemplo: class MiClase { }</div>
+            </div>
+
+            <div class="step">
+                <strong>2. Compilar TypeScript:</strong>
+                <div class="command">tsc mi-archivo.ts</div>
+                <p>Esto genera un archivo <code>.js</code> que el navegador entiende.</p>
+            </div>
+
+            <div class="step">
+                <strong>3. Cambiar el script en este HTML:</strong>
+                <p>Edita la línea al final y cambia <code>script.js</code> por tu archivo:</p>
+                <div class="command">&lt;script src="tu-archivo.js"&gt;&lt;/script&gt;</div>
+            </div>
+
+            <div class="step">
+                <strong>4. Ver resultados:</strong>
+                <p>Abre este HTML en el navegador y la consola (F12) para ver los resultados.</p>
+            </div>
+        </div>
+
+        <div class="info">
+            <h3><span class="icon">🎯</span>Conceptos que aprenderás:</h3>
+            <ul>
+                <li><strong>Clases</strong> - Moldes para crear objetos</li>
+                <li><strong>Objetos</strong> - Instancias creadas con las clases</li>
+                <li><strong>Propiedades</strong> - Características de los objetos</li>
+                <li><strong>Métodos</strong> - Acciones que pueden hacer los objetos</li>
+                <li><strong>Constructor</strong> - Función que inicializa el objeto</li>
+                <li><strong>Herencia</strong> - Clases que heredan de otras clases</li>
+                <li><strong>Encapsulación</strong> - public, private, protected</li>
+            </ul>
+        </div>
+
+        <div class="highlight">
+            <h3><span class="icon">💡</span>Ejemplo rápido:</h3>
+            <p><strong>1.</strong> Creas <code>mi-clase.ts</code> con tu clase</p>
+            <p><strong>2.</strong> Ejecutas: <code>tsc mi-clase.ts</code></p>
+            <p><strong>3.</strong> Cambias la línea de abajo por: <code>&lt;script src="mi-clase.js"&gt;&lt;/script&gt;</code></p>
+            <p><strong>4.</strong> Abres este HTML y ves la consola (F12)</p>
+        </div>
+
+        <div style="text-align: center; margin-top: 30px; font-size: 1.2em;">
+            <p><strong><span class="icon">🚀</span>¡Abre la consola del navegador (F12) para ver tus objetos en acción!</strong></p>
+        </div>
+    </div>
+
+    <!-- 🔄 CAMBIA "script.js" por tu archivo compilado -->
+    <script src="script.js"></script>
+</body>
+</html>
